@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    "
+   <item android:title="BRANCH">
+       <menu>
+           <item
+               android:title="     CSE"
+               android:id="@+id/cse"
+               />
+         
+           <item
+               android:title="     ECE"
+               android:id="@+id/ece"/>
+         
+           <item
+               android:title="     MECH"
+               android:id="@+id/mechanical"/>
+          
+       </menu>
+   </item>
+    <item
+        android:title="MORE">
+        <menu>
+            
+            <item
+                android:title="     CREDITS"
+                android:id="@+id/credits"
+                />
+            <item
+                android:title="     SIGN OUT"
+                android:id="@+id/signout"
+                />
+           
+            
+
+
+
+
+        </menu>
+
+
+
+
+
+    </item>
+
+</menu>

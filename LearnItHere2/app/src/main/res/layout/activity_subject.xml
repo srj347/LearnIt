@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context=".Subject"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="29dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="35dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Select subject"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+
+                android:textSize="32sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="164dp"
+                android:layout_height="164dp"
+                app:cardCornerRadius="29dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:id="@+id/dsa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0dp"
+                    android:background="@drawable/subject"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/dsa1"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="DSA"
+                    android:textSize="32sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                app:cardCornerRadius="29dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:id="@+id/fdlca"
+                    android:layout_width="164dp"
+                    android:layout_height="164dp"
+                    android:background="@drawable/subjecto" />
+
+                <TextView
+                    android:id="@+id/fdlca1"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="FDLCA"
+                    android:textSize="32sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="29dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:id="@+id/maths"
+                    android:layout_width="164dp"
+                    android:layout_height="164dp"
+                    android:background="@drawable/subject" />
+
+                <TextView
+                    android:id="@+id/maths1"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="MATHS"
+                    android:textSize="32sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                app:cardCornerRadius="29dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:id="@+id/python"
+                    android:layout_width="164dp"
+                    android:layout_height="164dp"
+                    android:background="@drawable/subjecto" />
+
+                <TextView
+                    android:id="@+id/python1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="PYTHON"
+                    android:textSize="32sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <ImageView
+                android:layout_width="164dp"
+                android:layout_height="164dp"
+                android:contentDescription="empty" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:background="@drawable/back_rect">
+
+    <ImageView
+        android:id="@+id/pdf_icon_item"
+        android:layout_width="100dp"
+        android:layout_height="67dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/pdf_view" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+
+        tools:text="My Name is Suraj"
+
+        />
+
+
+</LinearLayout>

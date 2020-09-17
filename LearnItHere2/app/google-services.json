@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "200066178083",
+    "firebase_url": "https://learn-it-here-3.firebaseio.com",
+    "project_id": "learn-it-here-3",
+    "storage_bucket": "learn-it-here-3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200066178083:android:4b8490772536004e27a596",
+        "android_client_info": {
+          "package_name": "com.epizy.learnitapp.learnitheree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200066178083-6398rqudka9rsj5g2l5k750usd7u9fcf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epizy.learnitapp.learnitheree",
+            "certificate_hash": "f78dae0552697df7e9518c6ee2ec8fe03d568193"
+          }
+        },
+        {
+          "client_id": "200066178083-ha23coogs2ph2dq42pfeq9vqumll6bsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8VCIOpW7qHxkGEItlA3HFaqw0CFpLBus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200066178083-ha23coogs2ph2dq42pfeq9vqumll6bsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

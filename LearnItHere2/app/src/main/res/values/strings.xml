@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">LearnIt</string>
+    <string name="Drawer_Open">Drawer is Open</string>
+    <string name="Drawer_Close">Drawer is Close</string>
+    <string name="admob_banner_id" >ca-app-pub-1000230449148381/4232239617</string>
+    <string name="admob_app_id">ca-app-pub-1000230449148381~6290291276</string>
+    <string name="admob_intertistial_id">ca-app-pub-1000230449148381/7979912931</string>
+
+</resources>
